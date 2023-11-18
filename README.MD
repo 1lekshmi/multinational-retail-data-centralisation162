@@ -14,17 +14,19 @@ Scenario:
 
     You will then query the database to get up-to-date metrics for the business.
 
----
-
 ## Milestone 2 - Data extraction and data cleaning
 
 - Data was extracted from multiple sources, such as Relational Database Tables, API Keys, S3 buckets, PDFs
 - The extracted data was then cleaned and uploaded to the local database
 
----
+## Milestone 3 - Database schema
+
+- created multiple schemas to update the data types of columns in each table
+- added primary keys and foreign keys
 
 ## What I learned
 
 - Extracting data from multiple sources
 - Data cleaning using pandas
 - Uploading the cleaned data into a local database
+- Writing SQL schemas to update data types, to add primary and foreign keys

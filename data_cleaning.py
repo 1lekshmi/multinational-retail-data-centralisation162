@@ -44,7 +44,7 @@ class DataCleaning:
 
         # # errors with formatting
         card_data_table['card_number'] = card_data_table['card_number'].apply(str)
-        card_data_table['card_number'] = card_data_table['card_number'].str.replace('?', '')
+        card_data_table = card_data_table[~card_data_table['card_number'].str.contains('[a-zA-Z?]',na=False)]
         
         return card_data_table
     
